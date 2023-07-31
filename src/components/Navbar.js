@@ -21,7 +21,7 @@ const handleNav = () => {
         <div onClick={handleNav} className='md:hidden block '>
             {!nav ? <AiOutlineClose size= {20}/> : <AiOutlineMenu size={20} /> }
         </div>
-        <div className={!nav ? 'fixed left-0 top-0 w-[50%] border-r border-r-gray-900 h-full bg-[#222831] ease-in-out duration-200' : 'fixed left-[-100%]'}>
+        <div className={!nav ? ' md:hidden fixed left-0 top-0 w-[50%] border-r border-r-gray-900 h-full bg-[#222831] ease-in-out duration-200' : 'fixed left-[-100%]'}>
         <h1 className='w-full text-3xl font-bold justify-start p-5 text-[#00ADB5]'>GYM</h1>
         <ul className='pt-22 uppercase text-white'>
             <li className='p-4 border-b border-gray-600'>Home</li>
