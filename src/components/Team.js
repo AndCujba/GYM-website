@@ -9,7 +9,7 @@ const Team = () => {
   return (
     <div className='max-w-[1240px] mx-auto py-[4rem]'>
         <h1 className='uppercase font-bold md:text-3xl text-2xl text-[#00ADB5] text-center '>Meet Our Team</h1>
-        <p className='text-center mb-7 text-xl text-gray-300'>Choose your trainer and get in touch with us!</p>
+        <p className='text-center mb-7 text-xl text-gray-300'>Choose your personal trainer and get in touch now!</p>
         <div className='grid lg:grid-cols-4 md:grid-cols-2 gap-7'>
             <div className='sm:mb-10'>
                 <img src={trainer1} alt='trainer1' width={15} className='object-contain h-48 w-96 mx-auto'/>
