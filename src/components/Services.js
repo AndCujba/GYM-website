@@ -6,7 +6,7 @@ import strength from '../assets/strength.jpg'
 
 const Services = () => {
   return (
-    <div className='bg-white w-full py-16 flex flex-col pb-25'>
+    <div className='bg-white w-full py-16 flex flex-col pb-25' id='services-section'>
         <h1 className='uppercase font-bold md:text-4xl text-3xl text-[#00ADB5] mx-auto mt-[-20px]'>Choose your program</h1>
         <div className='max-w-[1240px] mx-auto grid md:grid-cols-2  border-b py-7'>
             <img src={cardio}  alt='cardio' width={460} className='m-auto'/>

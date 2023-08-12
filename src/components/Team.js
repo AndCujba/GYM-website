@@ -7,7 +7,7 @@ import trainer5 from '../assets/trainer5.jpg'
 
 const Team = () => {
   return (
-    <div className='max-w-[1240px] mx-auto py-[4rem]'>
+    <div className='max-w-[1240px] mx-auto py-[4rem]' id='team-section'>
         <h1 className='uppercase font-bold md:text-3xl text-2xl text-[#00ADB5] text-center '>Meet Our Team</h1>
         <p className='text-center mb-7 text-xl text-gray-300'>Choose your personal trainer and get in touch now!</p>
         <div className='grid lg:grid-cols-4 md:grid-cols-2 gap-7'>

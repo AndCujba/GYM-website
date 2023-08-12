@@ -8,22 +8,32 @@ import Team from './components/Team';
 import Footer from './components/Footer';
 import Home from './components/Home';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { animateScroll as scroll } from 'react-scroll';
 
  
 function App() {
+  const scrollToSection = (sectionId) => {
+    scroll.scrollTo(sectionId, {
+        duration: 800, // Adjust the duration as needed
+        smooth: 'easeInOutQuart', // Add easing for smoother effect
+    });
+};
+
   return (
     <>
-    <Router>
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />}/>
-        <Route path="/services" element={<Services />}/> 
-        <Route path="/team" element={<Team />}/>
-        <Route path="/cards" element={<Cards/>}/>
-        <Route path="/newsletter" element={<Newsletter/>}/>
-      </Routes>
-      <Footer />
-    </Router>
+     <Router>
+            <div className="App">
+                <Navbar scrollToSection={scrollToSection} />
+                <div className="Content">
+                    <Hero />
+                    <Services />
+                    <Team />
+                    <Cards />
+                    <Newsletter />
+                </div>
+                <Footer scrollToSection={scrollToSection} />
+            </div>
+        </Router>
     
     </>
 

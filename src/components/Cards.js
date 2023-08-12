@@ -2,7 +2,7 @@ import React from 'react'
 
 const Cards = () => {
   return (
-    <div className='w-ful py-[6rem] px-4 bg-white'>
+    <div className='w-ful py-[6rem] px-4 bg-white' id='prices-section'>
         <div className='max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8'>
             <div className='w-full shadow-xl flex flex-col rounded-lg p-4 my-8 hover:scale-105 duration-300 bg-white'>
                 <h2 className='text-2xl font-bold text-center py-8'>Student</h2>

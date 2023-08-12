@@ -3,8 +3,8 @@ import Typed from 'react-typed'
 
 const Hero = () => {
   return (
-    <div className='text-white'>
-        <div className='max-w-[800px] mt-[-96px] w-full mx-auto text-center flex flex-col h-screen justify-center' >
+    <div className='text-white' id='home-section'>
+        <div className='max-w-[800px] w-full mx-auto text-center flex flex-col h-screen justify-center' >
             <h3 className='font-bold p-2 text-[#00ADB5]'>WE GROW TOGETHER</h3>
             <div className='flex justify-center items-center'>
                 <p className='md:text-5xl sm:text-4xl text-2xl font-bold'>Transform your </p>
